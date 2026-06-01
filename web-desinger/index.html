@@ -1,0 +1,102 @@
+<!--Aula 1 - HTML-->
+<!DOCTYPE html> <!--Aviso para os navegadores que estou trabalhando com o documento html(gravado ou escrito em html)-->
+<html lang="pt-br"> <!--Abre o comando HTML e significa em que lingua que o documento que foi escrito-->
+<head> <!--Cabeçalho virtual(somente o navegador sabe)-->
+<meta charset="UTF-8"> <!--UTF-8: Conjunto de caracteres ocidental(pega todos os caracteres alfanuméricos do ocidente 
+    A-B e 0 a 9 e os caracteres especiais)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Determina que o site vai ser responsivo
+    (o site se ajusta ao tamanho da sua tela(independente do seu aparelho(celular,notebook,pc...)))-->
+    <title>Aula-01-Duda</title> <!--Titulo que aparece em cima do browser-->
+</head>
+<body> <!--Corpo do documento/ conteúdo da página--> <!--Para atualizar o browser sem cookies ctrl+r-->
+<!--Titulo de capa -> h1
+1 -> h2
+1.1 -> h3
+1.1.1 -> h4
+1.1.1.1 -> h5
+1.1.1.1.1 -> h6 -->
+    <h1>Titulo de nivel 1</h1> <!--Titulo de capa (só pode conter 1)-->
+    <h2>Titulo de nivel 2</h2> 
+    <h3>Titulo de nivel 3</h3>
+    <h4>Titulo de nivel 4</h4>
+    <h5>Titulo de nivel 5</h5>
+    <h6>Titulo de nivel 6</h6>
+    <!--Tag para parágrafo <p>-->
+    <p>
+        Aqui você cria o seu parágrafo do site. Porém quando você aperta enter
+     não garante que seu texto está na outra linha.
+     Uma quebra de linha usa-se <!--<br>-->
+     <br>
+     Agora sim estou na linha de baixo.
+    </p>
+
+    <p>Este é o meu segundo paragráfo</p>
+
+     Texto fora de um páragrafo ele funciona muito bem, porém ele não está semântico <!--Para um texto estar semânticamente
+      correto é necessario ele estar dentro de um paragráfo-->
+     
+    <!--Lista Ordenada(Na frente aparecem Números ou Letras)-->
+    <ol> <!--(OL:Ordem List) -> Tag de inicio de Lista Ordenada-->
+        <li>Arroz</li> <!--(LI:List Item) -> Para definir cada item de uma lista-->  
+        <li>Feijão</li>
+        <li>Açucar</li>
+    </ol>
+
+    <!--Lista Não Ordenada(Na frente aparecem apenas icones(bolinha, por exemplo))-->
+    <ul> <!--Tag de incio de Lista NÃO ORDENADA-->
+        <li>Escola</li>
+        <li>Passeio</li>
+        <li>Viajar</li>
+        <li>
+            <p>Paragráfro dentro de uma lista</p> <!--Só é necessário paragráfro dentro de uma lista se tiver 
+            textos grandes(de acordo com a semântica de código)-->
+        </li>
+    </ul>
+ <!--Lista com sub-listas-->
+<ol>
+    <li>Feira
+        <ol>
+            <li>Frutas
+                <ol>
+                    <li>Banana</li>
+                    <li>Laranja</li>
+                    <li>Maça</li>
+                </ol>
+            </li>
+             <li>Legumes
+                <ol>
+                    <li>Batata</li>
+                    <li>Cenoura</li>
+                    <li>Beringela</li>
+                </ol>
+             </li>
+            <li>Pastel
+                <ol>
+                    <li>Frango com catupiry</li>
+                    <li>Carne com queijo</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
+<!-- Marcador numerado, se usarmos i type, podemos indicar a partir de qual número ele deve listar--> 
+<!--ol type = "A" : type para indicar marcador de linha desejado-->
+
+<!-- colocar imagem por link: <img src="https://png.pngtree.com/thumb_back/fh260/background/20230804/pngtree-flowers-of-cosmos-beautiful-and-beautiful-purple-flowers-spring-green-field-image_13001920.jpg" alt="">--><!--scr: source(pesquisa);
+  alt: se caso algo ocorrer e a imagem não estiver, aparece uma mensagem no lugar da imagem-->
+<img src="/img/flor.jpg" alt=""> <!--Colocar / antes de selecionar a pasta onde está a imagem, depois / novamente e o nome da imagem-->
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aperiam placeat vero. Dolorem voluptate,
+ excepturi, numquam aperiam perspiciatis, nam tempora animi quidem voluptas molestias porro modi est eveniet doloribus enim!</p>
+ <!--Lorem Cria um texto aleatório-->
+ <hr><hr><hr><hr><hr><!--Serve para criar linhas, quantos mais hr, cria-se os hr-->
+ 
+
+
+
+
+
+
+
+</body>
+</html>

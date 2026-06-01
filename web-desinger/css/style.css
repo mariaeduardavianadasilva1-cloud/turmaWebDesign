@@ -1,0 +1,72 @@
+*{
+    margin: 0; /*distância de segurança: afasta quem está fora para não ficar perto de qm está dentro*/
+    padding: 0; /*Afasta oque ta dentro para não ficar perto doq está do lado de fora*/
+    box-sizing: border-box; /*garante que o margin e o padding não infrigam o tamanho da página*/
+}
+
+ body{
+    /*passou dos dois pontos é um parametro, antes é um atributo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Fontes das letras*/
+    background-color: rgb(124, 218, 74); /*cor de fundo*/
+ }
+
+ header{
+   width: 95vw;
+   height: 50vh;
+   margin: auto; /*envia para o centro(é necessário informar as medidas antes de colocar auto(automático))*/
+   background-color: rgb(206, 211, 158);
+   padding: 15px;
+   margin-bottom: 10px; /*afasta a parte de baixo*/
+   margin-top: 10px; /*afasta a parte de cima*/
+   border-radius: 15px;
+   box-shadow: 0 0 8px 12px rgba(10, 48, 10, 0.5); /*dá um efeito de sombra*/
+ /*esquerda, em cima, lado direito, em baixo*/
+ text-align: center; /*alinha tudo ao centro*/
+ }
+
+#nomeEmpresa{
+    color: rgb(19, 116, 43);
+    font-size: 53px;
+}
+
+.navbar ul{
+    list-style: none; /*vai tirar os marcadores*/
+}
+
+.navbar ul li{
+    display: inline-block; /*Deixa as coisas da lista uma do lado da outra*/
+}
+
+/*.navbar ul li a{
+ 
+}*/ /*Aqui é uma das formas de se aplicar o estilo nos filhos, entrendo por meio dos pais*/
+
+.link_navbar{
+    display: block;
+    color: rgb(33, 119, 79);
+    text-decoration: none; /*Tira a decoração do link*/
+    padding: 20px; /*dá um espaçamento entre as palavras*/
+    transition: all ease-in-out 0.5s;
+    transform: translateX(-2px) translateY(-2px); /*quando coloca essas linhas no seletor de baixo(hover)
+     como positivo e aqui a mesma coisa pórém com negativo, ele da a sensação de ir e de voltar*/
+     border-radius: 15px; /*deixa a borda arredondada*/
+}
+
+.link_navbar:hover{ /*Quando passa o mouse por cima, ele muda a cor(usamos para locais clicavéis)*/
+    background-color: rgb(77, 109, 96);
+    color: rgb(240, 243, 240);
+    transition: all ease-in-out 0.5s; /*diminui o tempo de transição, ao passar o mouse vai mais lento*/
+    transform: translateX(2px) translateY(2px); /*Assim que passa o mouse em cima ele muda de lugar. X: horizontal,Y: vertical*/
+    cursor: pointer; /*quando passa o mouse em cima, deixa ele como se fosse uma mãozinha, indicando que ele é clicável*/
+}
+
+.container{
+    width: 80wh; /*largura*/
+    height: 80vh; /*altura*/
+    background-color: rgb(213, 253, 228); /*rgb: red,green e blue, vão de 0 a 255, vai fazendo a mistura dessas cores*/
+    /*branco: junção de todas as cores|preto:ausência de todas as cores*/
+    color: rgb(7, 1, 1); /*atribui cor para a fonte(texto)*/
+    line-height: 1.6; /*altura da linha, espaçamento entre elas*/
+}
+/* Caso abrisse outro seletor e colocasse de atributo - width: 20%; Ocupa 20% dos mil pixels definidos anteriormente(se fosse definido o widht e o height por pixels,
+ aqui seria utilizado 20% desses valores definidos)*/ 

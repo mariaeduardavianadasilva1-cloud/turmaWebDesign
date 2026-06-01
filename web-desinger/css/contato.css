@@ -1,0 +1,29 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+ body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: rgb(124, 218, 74); 
+ }
+
+ aside ul {
+    display: flex;   
+    gap: 20px;           
+    list-style: none;   
+    padding: 0;         
+    margin-left: 200px; 
+    margin-bottom: 20px;      
+}
+
+aside ul a {
+    color: rgb(51, 128, 92);
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+aside{
+    color: rgb(101, 86, 168);
+}

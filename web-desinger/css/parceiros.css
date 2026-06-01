@@ -1,0 +1,63 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: rgb(124, 218, 74); 
+}
+
+main{
+   width: 90vw;
+   height: 30vh;
+   margin: auto; 
+   background-color: rgb(206, 211, 158);
+   padding: 30px;
+   margin-bottom: 10px; 
+   margin-top: 10px; 
+   border-radius: 15px;
+   box-shadow: 0 0 8px 12px rgba(10, 48, 10, 0.5); 
+   text-align: center; 
+ }
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block; 
+}
+
+.link_navbar{
+    display: block;
+    color: rgb(51, 128, 92);
+    text-decoration: none; 
+    padding: 20px; 
+    transition: all ease-in-out 0.5s;
+    transform: translateX(-2px) translateY(-2px); 
+    border-radius: 15px; 
+}
+
+.link_navbar:hover{ 
+    background-color: rgb(77, 109, 96);
+    color: rgb(240, 243, 240);
+    transition: all ease-in-out 0.5s; 
+    transform: translateX(2px) translateY(2px); 
+    cursor: pointer; 
+}
+
+
+#nomeEmpresa{
+    color: rgb(19, 116, 43);
+    font-size: 40px;
+}
+
+p{
+    font-size: 14px;
+}
+
+img {
+  margin-top: 30px; /*Espaço de acordo a parte de cima*/   
+}
